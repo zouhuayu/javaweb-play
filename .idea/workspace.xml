@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="chapter2:war" />
+      <artifact name="chapter2:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f515bb9a-163d-4fef-b390-667a92c075f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6b37b782-2e4d-46e1-bb00-90cd70972394.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerCreateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerDeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerEditServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerShowServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/helper/DatabaseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/util/CastUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/util/CollectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/util/PropsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/smart4j/chapter2/test/CustomerServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sql/customer_init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/classes/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/classes/org/smart4j/chapter2/controller/CustomerCreateServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/classes/org/smart4j/chapter2/controller/CustomerDeleteServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/classes/org/smart4j/chapter2/controller/CustomerEditServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/classes/org/smart4j/chapter2/controller/CustomerServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/classes/org/smart4j/chapter2/controller/CustomerShowServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/classes/org/smart4j/chapter2/helper/DatabaseHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/classes/org/smart4j/chapter2/model/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/classes/org/smart4j/chapter2/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/classes/org/smart4j/chapter2/util/CastUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/classes/org/smart4j/chapter2/util/CollectionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/classes/org/smart4j/chapter2/util/PropsUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/classes/org/smart4j/chapter2/util/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/lib/commons-collections4-4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/lib/commons-dbcp2-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/lib/commons-dbutils-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/lib/commons-lang3-3.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/lib/commons-pool2-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/lib/mysql-connector-java-5.1.33.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/lib/slf4j-api-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/lib/slf4j-log4j12-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/view/customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/view/customer_create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/view/customer_edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/view/customer_show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/chapter2-1.0.0/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/smart4j/chapter2/controller/CustomerCreateServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/smart4j/chapter2/controller/CustomerDeleteServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/smart4j/chapter2/controller/CustomerEditServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/smart4j/chapter2/controller/CustomerServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/smart4j/chapter2/controller/CustomerShowServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/smart4j/chapter2/helper/DatabaseHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/smart4j/chapter2/model/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/smart4j/chapter2/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/smart4j/chapter2/util/CastUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/smart4j/chapter2/util/CollectionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/smart4j/chapter2/util/PropsUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/smart4j/chapter2/util/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/smart4j/chapter2/test/CustomerServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/sql/customer_init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-04-08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/chapter2/org/apache/jsp/WEB_002dINF/view/customer_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/chapter2/org/apache/jsp/WEB_002dINF/view/customer_jsp.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="30" column="80" selection-start-line="30" selection-start-column="80" selection-end-line="30" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerEditServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerDeleteServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerShowServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerCreateServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/sql/customer_init.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/package.json" />
+        <option value="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerCreateServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerDeleteServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerEditServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerShowServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_create.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_edit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_show.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/util/StringUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/util/CastUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/util/CollectionUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/util/PropsUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/org/smart4j/chapter2/test/CustomerServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/sql/customer_init.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/helper/DatabaseHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Eclipse\repository" />
+        <option name="userSettingsFile" value="D:\Eclipse\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="chapter2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="614" />
+    <option name="y" value="18" />
+    <option name="width" value="1261" />
+    <option name="height" value="1035" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.421">
+    <configuration name="CustomerServiceTest.createCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.smart4j.chapter2.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.smart4j.chapter2.test" />
+      <option name="MAIN_CLASS_NAME" value="org.smart4j.chapter2.test.CustomerServiceTest" />
+      <option name="METHOD_NAME" value="createCustomerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceTest.deleteCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.smart4j.chapter2.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.smart4j.chapter2.test" />
+      <option name="MAIN_CLASS_NAME" value="org.smart4j.chapter2.test.CustomerServiceTest" />
+      <option name="METHOD_NAME" value="deleteCustomerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceTest.getCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.smart4j.chapter2.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.smart4j.chapter2.test" />
+      <option name="MAIN_CLASS_NAME" value="org.smart4j.chapter2.test.CustomerServiceTest" />
+      <option name="METHOD_NAME" value="getCustomerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceTest.updateCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.smart4j.chapter2.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.smart4j.chapter2.test" />
+      <option name="MAIN_CLASS_NAME" value="org.smart4j.chapter2.test.CustomerServiceTest" />
+      <option name="METHOD_NAME" value="updateCustomerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chapter2 [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 7.0.421" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="Tomcat 7.0.42" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="chapter2:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/chapter2" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_421_chapter2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="chapter2:war exploded" />
+          <artifact name="chapter2:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="Tomcat 7.0.421" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="chapter2:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/chapter2" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_chapter2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="chapter2:war exploded" />
+          <artifact name="chapter2:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CustomerServiceTest.createCustomerTest" />
+      <item itemvalue="JUnit.CustomerServiceTest.deleteCustomerTest" />
+      <item itemvalue="JUnit.CustomerServiceTest.getCustomerTest" />
+      <item itemvalue="JUnit.CustomerServiceTest.updateCustomerTest" />
+      <item itemvalue="Maven.chapter2 [install]" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.421" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.chapter2 [install]" />
+        <item itemvalue="JUnit.CustomerServiceTest.deleteCustomerTest" />
+        <item itemvalue="JUnit.CustomerServiceTest.updateCustomerTest" />
+        <item itemvalue="JUnit.CustomerServiceTest.createCustomerTest" />
+        <item itemvalue="JUnit.CustomerServiceTest.getCustomerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f515bb9a-163d-4fef-b390-667a92c075f3" name="Default Changelist" comment="" />
+      <created>1554558211382</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554558211382</updated>
+      <workItem from="1554558215974" duration="2124000" />
+      <workItem from="1554560534385" duration="3497000" />
+      <workItem from="1554605717654" duration="1074000" />
+      <workItem from="1554606827180" duration="16542000" />
+      <workItem from="1554708747265" duration="5452000" />
+      <workItem from="1554714234098" duration="1696000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CustomerServiceTest_deleteCustomerTest - 2019.04.08 at 16h 05m 40s.xml">
+      <configuration name="CustomerServiceTest.deleteCustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerServiceTest_getCustomerTest - 2019.04.08 at 16h 14m 43s.xml">
+      <configuration name="CustomerServiceTest.getCustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerServiceTest_createCustomerTest - 2019.04.08 at 16h 14m 48s.xml">
+      <configuration name="CustomerServiceTest.createCustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerServiceTest_createCustomerTest - 2019.04.08 at 16h 15m 28s.xml">
+      <configuration name="CustomerServiceTest.createCustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerServiceTest_getCustomerListTest - 2019.04.08 at 16h 22m 18s.xml">
+      <configuration name="CustomerServiceTest.getCustomerListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerServiceTest_getCustomerTest - 2019.04.08 at 16h 22m 22s.xml">
+      <configuration name="CustomerServiceTest.getCustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerServiceTest_createCustomerTest - 2019.04.08 at 16h 22m 25s.xml">
+      <configuration name="CustomerServiceTest.createCustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerServiceTest_updateCustomerTest - 2019.04.08 at 16h 22m 29s.xml">
+      <configuration name="CustomerServiceTest.updateCustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerServiceTest_updateCustomerTest - 2019.04.08 at 16h 24m 38s.xml">
+      <configuration name="CustomerServiceTest.updateCustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerServiceTest_deleteCustomerTest - 2019.04.08 at 16h 24m 42s.xml">
+      <configuration name="CustomerServiceTest.deleteCustomerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="30385000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="614" y="18" width="1261" height="1035" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3505412" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25313568" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32703003" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.36484984" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32925472" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32897863" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32925472" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24979185" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.11490425" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.16127062" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/package.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/util/CastUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1811#1812#0" expanded="true" />
+            <element signature="e#1858#1859#0" expanded="true" />
+            <element signature="e#2445#2446#0" expanded="true" />
+            <element signature="e#2500#2501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/util/CollectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/util/PropsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6b37b782-2e4d-46e1-bb00-90cd70972394/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/smart4j/chapter2/test/CustomerServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1036">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/helper/DatabaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3564">
+          <caret line="182" column="67" selection-start-line="182" selection-start-column="67" selection-end-line="182" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/sql/customer_init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerCreateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerDeleteServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerEditServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="30" column="80" selection-start-line="30" selection-start-column="80" selection-end-line="30" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerShowServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/smart4j/chapter2/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
